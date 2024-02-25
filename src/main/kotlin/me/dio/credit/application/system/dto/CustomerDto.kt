@@ -20,7 +20,7 @@ data class CustomerDto(
         lastName = this.lastName,
         cpf = this.cpf,
         income = this.income,
-        email = this.lastName,
+        email = this.email,
         password = this.password,
         address = Address(
             zipCode = this.zipCode,
